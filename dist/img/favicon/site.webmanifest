@@ -1,0 +1,14 @@
+{
+    "name": "Avik Nigam",
+    "short_name": "Avik Nigam",
+    "icons": [
+        {
+            "src": "/dist/img/favicon/android-chrome-72x72.png?v=kP3PQWanJ4",
+            "sizes": "72x72",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}

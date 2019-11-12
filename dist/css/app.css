@@ -1,0 +1,92 @@
+/*
+-------------------------------------------
+	WEBSITE CREATED BY AVIK NIGAM
+
+* Contact at business.aviknigam@gmail.com
+
+* Great quality websites!
+-------------------------------------------
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display:900');
+
+::selection {
+	background: #000000;
+	color: #FFFFFF;
+	/* color: #00adef; */
+}
+
+html {
+
+}
+
+body {
+	background: #F9F9F9;
+	color: #131e33;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+
+/* -------------------- Text  -------------------- */
+.blue {
+	color: #131e33;
+}
+
+.gold {
+	color: #a2957c;
+}
+
+h1 {
+	/* font-family: 'Playfair Display', serif; */
+}
+
+.hover-none {
+	color: #131e33;
+	text-decoration: none;
+}
+
+#twitter:hover {
+	background: initial;
+	color: #00ADEF;
+}
+
+#instagram:hover {
+	background: initial;
+	color: #bc2a8d;
+}
+
+#youtube:hover {
+	color: #FF3333;
+}
+
+#linkedin:hover {
+	color: #4875B4;
+}
+
+/* -------------------- Body -------------------- */
+.home-wrap {
+
+	padding: 60px 30px;
+}
+
+.home-wrap h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 38px;
+}
+
+.home-wrap h2 {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.home-wrap-img {
+	border-radius: 50%;
+	width: 100px;
+	
+}
+
+.home-wrap-footer .btn-dark{
+	background: #131e33;
+}

@@ -1,0 +1,54 @@
+/*
+-------------------------------------------
+	WEBSITE CREATED BY AVIK NIGAM
+
+* Contact at business.aviknigam@gmail.com
+
+* Great quality websites!
+-------------------------------------------
+*/
+
+/* ------------------------------------------- Responsive ------------------------------------------- */
+@media (min-width: 392px) {
+
+}
+
+@media (min-width: 425px) {
+
+}
+
+@media (min-width: 520px) {
+
+}
+
+/* ------------------------------------------- Small devices (landscape phones, 576px and up) ------------------------------------------- */
+    @media (min-width: 576px) {
+
+    }
+
+    @media (min-width: 620px) {
+
+    }
+
+/* ------------------------------------------- Medium devices (tablets, 768px and up) ------------------------------------------- */
+    @media (min-width: 768px) {
+            
+    }
+
+/* ------------------------------------------- Large devices (desktops, 992px and up) ------------------------------------------- */
+    @media (min-width: 992px) {
+        .home-wrap {
+            padding: 120px 60px;
+        }
+
+        .home-wrap-img {
+            border-radius: 10px;
+            margin: auto;
+            width: 358px;
+        }
+    }
+
+/* ------------------------------------------- Extra large devices (large desktops, 1200px and up) ------------------------------------------- */
+    @media (min-width: 1200px) {
+
+    }
