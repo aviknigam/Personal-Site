@@ -28,16 +28,20 @@ body {
 }
 
 /* -------------------- Text  -------------------- */
-.blue {
-	color: #131e33;
+.color1 {
+	color: #464159;
 }
 
-.gold {
-	color: #a2957c;
+.color2 {
+	color: #6c7b95;
 }
 
-h1 {
-	/* font-family: 'Playfair Display', serif; */
+.color3 {
+	color: #8bbabb;
+}
+
+.color4 {
+	color: #c7f0db;
 }
 
 .social-link {
@@ -68,29 +72,3 @@ h1 {
 }
 
 /* -------------------- Body -------------------- */
-.home-wrap {
-
-	padding: 40px 20px;
-}
-
-.home-wrap h1 {
-	font-family: 'Playfair Display', serif;
-	font-size: 38px;
-}
-
-.home-wrap h2 {
-	font-size: 22px;
-	font-weight: bold;
-	margin-top: 15px;
-    margin-bottom: 40px;
-}
-
-.home-wrap-img {
-	border-radius: 50%;
-	width: 100px;
-	
-}
-
-.home-wrap-footer .btn-dark{
-	background: #131e33;
-}
