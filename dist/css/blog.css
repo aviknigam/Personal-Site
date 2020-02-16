@@ -1,0 +1,90 @@
+#searchBox {
+	color: #495057;
+	display: block;
+	border: 1px solid #ced4da;
+	border-radius: .25rem;
+	background-clip: padding-box;
+	height: 30px;
+	margin: 20px auto;
+	padding: .375rem .75rem;
+	width: 80%;
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+#searchBox:focus {
+    background-color: #fff;
+	border-color: #007c82;
+	box-shadow: 0 0 0 3px #007c823f;
+	color: #495057;
+	outline: 0;
+}
+
+/* ---------------------------------------- Blog ---------------------------------------- */
+.breadcrumb a {
+	font-size: 14px;
+}
+
+.post-details {
+    border-bottom: 1px solid #e5ecef;
+    padding: 4px 0 12px;
+}
+
+.separator {
+    margin: 0 4px;
+}
+
+.date {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: .03em;
+}
+
+.about {
+	background: #f7f7f7;
+    border: 1px solid #EEEEEE;
+    border-radius: 3px;
+    margin: 20px 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.about img {
+	border: none;
+    border-radius: 50%;
+    display: block;
+    height: 100px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.about h2 {
+	font-size: 24px;
+    margin: 0;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.bio {
+	margin: 10px 0 0;
+    border-top: 1px solid #EEEEEE;
+    padding: 20px 0 10px;
+    text-align: justify;
+}
+
+.post-nav {
+	display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #BBBBBB;
+    border-bottom: 1px solid #BBBBBB;
+}
+
+.post-nav a {
+	color: #333;
+    font-size: 14px;
+    padding: 15px 0;
+    text-transform: uppercase;
+}
+
+.post-nav a i {
+	margin-right: 10px;
+}

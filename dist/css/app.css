@@ -25,9 +25,9 @@ a {
 	text-decoration: none;
 }
 
-/* h1,h2,h3,h4,h5 {
-	line-height: 0;
-} */
+h1 {
+	margin: 0;
+}
 
 .social-link {
 	color: #000000;
@@ -94,7 +94,7 @@ nav {
 }
 
 .navbar-links a:hover {
-	background-color: #333;
+	background-color: #007c82;
 	color: #FFF;
 }
 
@@ -177,6 +177,7 @@ nav {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin: 50px 0 20px 0;
 }
 
 .footer span {
