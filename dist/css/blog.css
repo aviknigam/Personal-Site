@@ -20,8 +20,12 @@
 }
 
 /* ---------------------------------------- Blog ---------------------------------------- */
+.breadcrumb {
+    margin-top: -20px;
+}
+
 .breadcrumb a {
-	font-size: 14px;
+    font-size: 14px;
 }
 
 .post-details {
@@ -37,6 +41,12 @@
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: .03em;
+}
+
+.main-post img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
 }
 
 .about {
