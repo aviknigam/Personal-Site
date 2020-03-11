@@ -34,7 +34,7 @@ $description = "I'm a medical student, software developer and trader, writing ar
 				</div>
 
 				<div class="section">
-					<h2 class="index-h2">Updates</h2>
+					<h2 class="index-h2">Notifications</h2>
 					<div class="index-post">
 						<time class="index-date" datetime="2020-02-15">
 							<span class="index-date-top">FEB 15</span>
@@ -82,10 +82,9 @@ $description = "I'm a medical student, software developer and trader, writing ar
 				<div class="section">
 					<h2 class="index-h2">
 						Most Popular
-						<a href="/blog" class="view-all">View all</a>
 					</h2>
 						<?php
-							$sql = $conn->query("SELECT * FROM blog WHERE postID IN (1, 9, 2, 5, 8) ORDER BY FIELD(postID, 1, 9, 2, 5, 8)");
+							$sql = $conn->query("SELECT * FROM blog WHERE postID IN (1, 11, 9, 5, 8) ORDER BY FIELD(postID, 1, 11, 9, 5, 8)");
 							while ($row = $sql->fetch_assoc()) {
 								echo '
 									<div id="' .$row['postID']. '" class="index-post">
