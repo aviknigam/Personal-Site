@@ -83,7 +83,7 @@ $description = strip_tags($postDescription);
 				<!-- About -->
 					<div class="section">
 						<div class="about">
-							<img src="<?= $writerImage; ?>" alt="<?= $writerName; ?>!">
+							<img src="<?= $writerImage; ?>" alt="Picture of <?= $writerName; ?>!">
 							<h2><?= $writerName; ?></h2>
 							<a href="<?= $writerTwitter; ?>" id="twitter" class="social-link" target="_blank"><i class="fa fa-twitter fa-fw" aria-hidden="true"></i></a>
 							<a href="<?= $writerInstagram; ?>" id="instagram" class="social-link" target="_blank"><i class="fa fa-instagram fa-fw" aria-hidden="true"></i></a>
@@ -96,6 +96,15 @@ $description = strip_tags($postDescription);
 				<!-- Post Navigation -->
 					<div class="section">
 						<div class="post-nav">
+							<?php
+								$stmt = $conn->query("SELECT * FROM blog WHERE postID < $postID ORDER BY postID DESC LIMIT 1");
+								$row = $stmt->fetch_assoc();
+									$previous_postSlug = $row['postSlug'];
+
+								$stmt = $conn->query("SELECT * FROM blog WHERE postID > $postID ORDER BY postID LIMIT 1");
+								$row = $stmt->fetch_assoc();
+									$next_postSlug = $row['postSlug'];
+							?>
 							<a class="hover-none" href="/blog/<?= $previous_postSlug; ?>">
 								<span class="text-black"><i class="fa fa-chevron-left chev-margin"></i>Previous Post</span>
 							</a>
