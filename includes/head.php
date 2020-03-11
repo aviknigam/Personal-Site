@@ -41,6 +41,8 @@
             <meta name="twitter:description" content="<?= $description; ?>">
             <meta name="twitter:image" content="<?= $configURL; ?>/dist/img/favicon/android-chrome-256x256.jpg">
         
+        <!-- Normalize Reset -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
         <!-- Font Awesome -->
 			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- Custom CSS -->
